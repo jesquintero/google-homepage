@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: .85em;
+    color: rgba(0,0,0,.87)
+}
+
+.dots {
+    width: 1.1em;
+    vertical-align: middle;
+}
+
+nav {
+    text-align: right;
+    padding: 1.6em 2em .5em .5em;
+}
+
+nav span {
+    padding: 1.3em .8em;
+    vertical-align: middle;
+    height: 1.7em;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+    cursor: pointer;
+}
+
+.search {
+    height: 90%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.logo {
+    padding-top: 11%;
+}
+
+.form {
+    padding-top: 2%;
+}
+
+#user-search {
+    border: none;
+    word-wrap: break-word;
+    outline: none;
+    font-size: 1.2em;
+    color: rgba(0,0,0,.87);
+    width: 83%;
+    padding: .5em 0;
+    background-color: transparent;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: rgba(0,0,0,.87);
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+}
+
+.voice {
+    width: 1.8em;
+    vertical-align: middle;
+}
+
+.search-bar:hover, .search-bar:active {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.submit {
+    margin-top: 2%;
+}
+
+.magni-glass {
+    width: 1.2em;
+}
+
+.search-icons {
+    display: flex;
+    vertical-align: middle;
+    padding: 0 .8em;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 41%;
+    margin: 0 auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 2em;
+    padding: .3em;
+}
+
+input[type=submit] {
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    width: 11em;
+    height: 2.4em;
+    font-size: 1.1em;
+    border-radius: 4px;
+    text-align: center;
+}
+
+input[type=submit]:last-child {
+    margin-left: 0.7em;
+}
+
+input[type=submit]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
